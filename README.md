@@ -1,10 +1,143 @@
-- 👋 Hi, I’m @flaChang
-- 👀 I’m interested in how to build amazing Websites.
-- 🌱 I’m currently learning HTML/CSS/Javascript.
-- 💞️ I’m looking to collaborate on ...myself.
-- 📫 zza46585@163.com
+<style>
+html {
+    font-size: 10px;
+}
 
-<!---
-flaChang/flaChang is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0%;
+}
+
+#title {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 500px) {
+    #title {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+a {
+    color:rgb(98, 0, 255);
+}
+
+a:visited {
+    color: rgb(51, 51, 51);
+}
+
+#main {
+    margin: 30px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #eee;
+}
+
+@media (max-width: 500px) {
+    #main {
+        margin: 0;                 /*屏幕太小时无间隔*/
+    }
+}
+
+img {
+    max-width: 100%;                 /*避免属性进一步扩大*/
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background-color: azure;
+    padding: 10px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 10px 0 10px 0;
+}
+
+@media (max-width: 500px) {
+    #img-caption {
+        font-size: 1.2rem;
+    }
+}
+
+#headline {
+    margin: 50px 0;
+    text-align: center;
+}
+
+ul {
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.4;
+}
+
+li {
+    margin: 16px 0;
+}
+
+endwords {
+    font-style: italic;              /*斜体的*/
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+</style>
+
+<body>
+    <main id="main">
+    <h1 id="title">Pro.Yuanlongping</h1>
+    <p>The father of the hybridrice</p>
+    <figure id="img-div">
+        <img 
+          id="image"
+          src="https://imagepphcloud.thepaper.cn/pph/image/133/227/552.jpg"
+          alt="Pro.Yuan was checking the appearances of rices"
+        />
+        <figcaption id="img-caption">
+          Pro.Yuan,as shown in the picture, is checking the rices' appearances in the rice yield.
+          Hoping to find the right species.
+        </figcaption>
+    </figure>
+    <content id="tribute-into">
+    <h2 id="headline">Here is a time line of Pro.Yuan's life: </h2>
+    <ul>
+        <li><strong>1930</strong>-Born in Beijing,China.</li>
+        <li><strong>1949</strong>-Graduated from juior high,Yuan determined to be an agricultural scientist.</li>
+        <li><strong>1953</strong>-After college,Yuan devoted himself to solving the problem of lacking food.</li>
+        <li><strong>1960</strong>-Yuan discoverd a natural rice with a special appearance.He then claimed that it could be the natural hybrid rice.</li>
+        <li><strong>1968</strong>-After thousands of tests, he finally found the right one.</li>  
+        <li><strong>1973</strong>-YUAN made a great progress in the hybrid rice area.</li>
+        <li><strong>1987</strong>-Awarded by the The United Nations Educational, Scientific and Cultural Organization.</li>
+        <li><strong>2000</strong>His latest research rice's production capacity has reached 700kg per mu.</li>  
+        <li><strong>2004</strong>-Receives the world food prize. </li>
+        <li><strong>2019</strong>-Receives the National Medal and national honorary title of the people's Republic of China.</li>
+        <li><strong>2021</strong>-dies at the age of 91.</li>
+    </ul>
+    
+    <endwords cite="http://www.360doc.com/content/21/0524/08/34858669_978698130.shtml">
+        <p>“袁隆平从事杂交水稻研究已经半个世纪了，不畏艰难，甘于奉献，呕心沥血，苦苦追求，为解决中国人的吃饭问题做出了重大贡献。先生的杰出成就不仅属于中国，而且影响世界。”</p>    
+        <cite>--新华网时评</cite>
+    </endwords>
+    <h3>如果您想要更多地了解袁隆平先生的有关事迹，请点击
+        <a 
+        id="tribute-link"
+        href="https://baike.baidu.com/item/%E8%A2%81%E9%9A%86%E5%B9%B3/43836?fr=aladdin"
+        target="_blank">
+        这里</a>
+    </h3>
+    </content>
+    </main>
+</body>
